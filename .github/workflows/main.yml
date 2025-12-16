@@ -23,7 +23,7 @@ jobs:
           script: |
             cd /home/ubuntu || exit 1
 
-            if [ ! -d "backend-sece-Aiml" ]; then
+            if [ ! -d "Task-Tracker-Backend" ]; then
               git clone https://github.com/Amirthavarshini02/Task-Tracker-Backend.git
             fi
 
